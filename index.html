@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Checking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>For the checking of grade</h1>
+    <form onsubmit="gradecheck(); return false">
+       <label for="marks">
+        Enter your Obtained Marks:
+       </label>
+       <br>
+       <input type="number" id="marks" required min="0">
+       <br>
+       <label for="totalmarks">
+        Enter your total Marks:
+       </label>
+       <br>
+       <input type="number" id="totalmarks" required>
+       <br>
+       <button type="submit">Calcuate your percentage or grade</button>
+    </form>
+    <h3 id="percentage"></h3>
+    <h4 id="grade"></h4>
+    <div>
+    <img src="./gc.png">
+    </div>
+    <footer>
+        <h4>This wbsite is copyright by Ameer Hamza &copy;</h4>
+    </footer>
+    <script src="./grade.mjs"></script>
+</body>
+</html>

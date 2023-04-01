@@ -1,0 +1,34 @@
+body{
+    margin-left: 2em;
+}
+a{
+    text-decoration: none;
+    color: slategray;
+}a:hover{
+    color: red;
+    text-decoration: underline;
+}
+h2{
+    color: crimson;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#marks{
+    margin-top: 0.5em;
+}
+#totalmarks{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+}
